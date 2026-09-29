@@ -11,18 +11,21 @@ public class IT26101213Lab9Q4 {
     public static char findGrades(double mark) {
         if (mark >= 75) {
             return 'A';
-        } else if (mark >= 60) {
+        } 
+        else if (mark >= 60) {
             return 'B';
-        } else if (mark >= 50) {
+        } 
+        else if (mark >= 50) {
             return 'C';
-        } else {
+        } 
+        else {
             return 'F';
         }
     }
 
     
     public static void printDetails(String name, double finalMark, char grade) {
-        System.out.printf("%-10s | %-10.2f | %-5c\n", name, finalMark, grade);
+        System.out.println(name + " | " + finalMark + " | " + grade);
     }
 
     
